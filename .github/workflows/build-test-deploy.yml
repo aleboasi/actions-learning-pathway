@@ -52,7 +52,7 @@ jobs:
       - run: npm run build
 
       - name: upload artifacts
-        uses: actions/upload-pages-artifacts@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "./out"
 
